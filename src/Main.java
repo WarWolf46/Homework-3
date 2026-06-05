@@ -122,16 +122,16 @@ public class Main {
         System.out.println("\tЗадача №7\n");
         int weightToLoseKg = 7;
 
-        int weightToLoseGrams = weightToLoseKg * 1000;
+        int weightToLoseGramms = weightToLoseKg * 1000;
 
         int minLossPerDay = 250;
         int maxLossPerDay = 500;
 
-        int daysAtMinSpeed = weightToLoseGrams / minLossPerDay;
-        int daysAtMaxSpeed = weightToLoseGrams / maxLossPerDay;
+        int daysAtMinSpeed = weightToLoseGramms / minLossPerDay;
+        int daysAtMaxSpeed = weightToLoseGramms / maxLossPerDay;
 
         int averageLossPerDay = (minLossPerDay + maxLossPerDay) / 2;
-        int averageDays = weightToLoseGrams / averageLossPerDay;
+        int averageDays = weightToLoseGramms / averageLossPerDay;
 
         System.out.println("Дней при потере 250 г/день: " + daysAtMinSpeed);
         System.out.println("Дней при потере 500 г/день: " + daysAtMaxSpeed);
